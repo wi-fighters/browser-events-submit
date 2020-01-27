@@ -5,15 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Browser Events</title>
+    <style>
+        #square {
+            margin-top: 1em;
+            height: 250px;
+            width: 250px;
+            background-color: whitesmoke;
+        }
+    </style>
 </head>
 <body>
     <form action="#">
         <label for="color">Color: 
-            <input id="color" type="text">
+            <input id="color" name="color" type="text">
         </label>
+        <input type="submit">
     </form>
 
-    <div id="square"></div>
+    <div id="square">
+        <p>Hell yeah, lorem ipsum.</p>
+    </div>
     <noscript>
         <p>This web page uses JavaScript. Please <a href="https://www.enable-javascript.com">enable JavaScript</a> in your browser.</p>
     </noscript>
