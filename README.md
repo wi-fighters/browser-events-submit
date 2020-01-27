@@ -7,4 +7,4 @@
 
 2. When the form is submitted, execute a second event listener called `setSize`. This handler should:
 
-    a. Grab the value of the number field and use it to size the `p` inside `#square`.
+    a. Grab the value of the number field and use it to size the `p` inside `#square` (don't edit any of the HTML outside the form)

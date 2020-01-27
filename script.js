@@ -1,6 +1,8 @@
 (() => {
+    // store a reference to the event target/s
     const form = document.querySelector('form');
 
+    // define the listener/s
     const setColor = function(event) {
         event.preventDefault();
 
@@ -10,5 +12,6 @@
         square.style.backgroundColor = textField.value;
     };
 
+    // attach the listeners to the event target/s
     form.addEventListener('submit', setColor, false);
 })();
